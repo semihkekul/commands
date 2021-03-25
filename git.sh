@@ -1,6 +1,6 @@
-git config --global merge.tool vimdiff
 
-# make vimdiff the difftool , call $git difftool
+# make vimdiff the difftool/mergetool , call $git difftool
+git config --global merge.tool vimdiff
 git config --global diff.tool vimdiff
 
 #git plog
